@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Force HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://afsarali.great-site.net%{REQUEST_URI} [R=301,L]
+
+# Remove www
+RewriteCond %{HTTP_HOST} ^www\.afsarali\.great-site\.net$ [NC]
+RewriteRule ^ https://afsarali.great-site.net%{REQUEST_URI} [R=301,L]

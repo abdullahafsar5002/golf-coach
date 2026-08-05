@@ -28,7 +28,7 @@ Open `index.html` in a browser. No package installation is required.
 
 ## Before launch
 
-- Replace the placeholder WhatsApp number (`+92 300 000 0000`) and email address with Afsar’s real contact details.
+- Replace the placeholder WhatsApp number (`923001234567`) and email address with Afsar’s real contact details.
 - Add the final social media profile links in each footer.
 - Replace any Unsplash images with owned academy photography if desired. The supplied Afsar coaching video is published at `assets/images/afsar-ali-coaching.mp4`.
 - The contact form uses browser storage to provide a static-site confirmation. For emailed lead notifications, connect it to a form service such as Formspree, Netlify Forms, or a Google Apps Script endpoint.
